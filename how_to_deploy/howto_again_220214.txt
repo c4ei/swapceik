@@ -1,0 +1,125 @@
+howto_again_220214
+
+0. /home/dev/www/uniswapV2/how_to_deploy/installation_data.json --> make blank
+    https://github.com/ggbbest/how_to_deploy_uniswap/blob/master/installation_data.json
+    fill pub/pri key
+1. 
+cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v1
+node deploy_uniswap_v1.js
+2. 
+cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2
+node deploy_uniswap_v2.js
+query_uniswap_contracts.js
+3. 
+cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_interface
+python3 modify_addresses.py
+XXX python3 change_chain_id.py
+
+'0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01 이 변경 되지 않는 듯 . . . --> 0x856B735047948F55BA589280CdbA96A22fC8245C
+cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/uniswapV2/how_to_deploy
+
+cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+
+
+RINKEBY
+kovan
+
+
+22-02-20 factory change
+cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9-->
+0xf13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63
+
+/home/dev/www/uniswapV2/src/state/swap/hooks.ts
+v2 router 01 0x856B735047948F55BA589280CdbA96A22fC8245C --> 0x55629f23Bb6d84145B6e5aC84bF63171f0a52C28
+
+
+/home/dev/www/uniswapV2/src/pages/AddLiquidity/index.tsx
+INIT_CODE_HASH:
+	96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f --> f13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63
+UniswapV2Router02 : 
+	0x22C573E6e225ed77Bda153ec0e18843EF6c0016f 
+UniswapV2Factory : 
+	0x6cdF5B4cffd285A6Be471E6894aC1798284e1a6b 
+V1_factory Vyper....
+	0xeC2592189E3C2ff7A46F7b2355D55858f1DD9395
+
+
+/node_modules/@uniswap/v2-core/build/UniswapV2Pair.json
+const COMPUTED_INIT_CODE_HASH = keccak256(['bytes'], [`0x${bytecode}`])
+document.writeln("INIT_CODE_HASH:"+COMPUTED_INIT_CODE_HASH+"") 
+
+/home/dev/www/uniswapV2/node_modules/@uniswap/v2-core/build/UniswapV2Pair.json
+
+/home/dev/www/uniswapV2/src/utils/computeUniCirculation.ts
+const TREASURY_VESTING_GENESIS = 1600387200
+/home/dev/www/uniswapV2/src/state/stake/hooks.ts
+export const STAKING_GENESIS = 1600387200
+	Fri Sep 18 2020 09:00:00 UTC+0900 (한국 표준시)
+
+1645455600 --> 2022. 2. 22. 오전 12:00:00
+
+
+/home/dev/www/uniswapV2/src/constants/index.ts
+const UNI_C4EI_ADDRESS = '0xeBE5769Bfb761416Bb533c70d6d6013de21e46CE'
+
+/home/dev/www/uniswapV2/public/locales/de.json
+
+ETH -->  C4EI
+/home/dev/www/uniswapV2/src/pages/Pool/index.tsx
+/home/dev/www/uniswapV2/src/components/NumericalInput/index.tsx
+/home/dev/www/uniswapV2/src/components/CurrencyInputPanel/index.tsx
+206          <CurrencySelect
+            selected={!!currency}
+            className="open-currency-select-button"
+
+/home/dev/www/uniswapV2/src/state/swap/hooks.ts
+/home/dev/www/uniswapV2/src/utils/currencyId.ts
+/home/dev/www/uniswapV2/src/components/SearchModal/CurrencySearch.tsx
+ETH -->  C4EI
+
+delete
+/home/dev/www/uniswapV2/node_modules/@uniswap/default-token-list/build/uniswap-default.tokenlist.json
+{
+	"name": "Wrapped Ether",
+	"address": "0x994Fd4195aF7eDC17437F5aD7Fb34ABBc0CBba89",
+	"symbol": "WETH",
+	"decimals": 18,
+	"chainId": 21004,
+	"logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+},
+
+
+SearchModal
+Currency(18, 'ETH', 'Ether')  --> Currency(18, 'C4EI', 'C4EI Coin')
+/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.development.js
+/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.development.js.map
+/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.production.min.js.map
+/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.esm.js
+/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.esm.js.map
+
+cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+
+/home/dev/www/uniswapV2/src/components/CurrencyLogo/index.tsx
+--> 5 line
+import EthereumLogo from '../../assets/images/ethereum-logo.png'
+--> 51 line
+  if (currency === ETHER) {
+    return <StyledEthereumLogo src={EthereumLogo} size={size} style={style} />
+  }
+/home/dev/www/uniswapV2/src/assets/images/ethereum-logo.png
+
+/home/dev/www/uniswapV2/src/connectors/index.ts
+	supportedChainIds: [1, 3, 4, 5, 42, 21004]
+
+delete DAI , UNI
+/home/dev/www/uniswapV2/node_modules/@uniswap/default-token-list/build/uniswap-default.tokenlist.json
+cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/uniswapV2/how_to_deploy
+
+/home/dev/www/uniswapV2/src/components/Header/index.tsx
+0 UNI --> not show
+const disp_off = { display: 'none' }
+style={disp_off}
+/home/dev/www/uniswapV2/src/components/SearchModal/CommonBases.tsx
+Common bases --> not show
+same code : style={disp_off}

@@ -1,0 +1,70 @@
+{
+  "name": "C4EI List",
+  "logoURI": "https://i.ibb.co/DQd2GBF/c4eix256t-Logo.png",
+  "timestamp": "2022-01-22T12:59:03+00:00",
+  "version": {
+    "major": 2,
+    "minor": 3,
+    "patch": 1
+  },
+  "keywords": [
+    "c4ei",
+    "default",
+    "list"
+  ],
+  "tokens": [
+    {
+      "name": "Block Chain World",
+      "address": "0x58A3F3237Ac6DD279702f2ec02C36ab536FF08e1",
+      "symbol": "BCW",
+      "decimals": 18,
+      "chainId": 21004
+    },
+    {
+      "name": "Block Chain Korea",
+      "address": "0x1d187BbeCeF8d7b1731339c301ab8354d4F0A50b",
+      "symbol": "BCK",
+      "decimals": 18,
+      "chainId": 21004,
+      "logoURI": "https://i.ibb.co/hYftGLk/bckx128t.png"
+    },
+    {
+      "name": "Wrapped C4EI",
+      "address": "0x9E63f92c2D1F3826111846bAd89210293C7F4060",
+      "symbol": "WC4EI",
+      "decimals": 18,
+      "chainId": 21004,
+      "logoURI": "https://i.ibb.co/DQd2GBF/c4eix256t-Logo.png"
+    },
+    {
+      "name": "C4EI Farm Token",
+      "address": "0xE449b77f37F9721E0DdE586D5D587213BD34308A",
+      "symbol": "CFT",
+      "decimals": 18,
+      "chainId": 21004,
+      "logoURI": "https://i.ibb.co/9qJ2TRZ/c4swapx128t.png"
+    },
+    {
+      "name": "RENTAL",
+      "address": "0x7E6af705dB981D0E391B4e063E39a6bbDF60e66f",
+      "symbol": "RNT",
+      "decimals": 18,
+      "chainId": 21004,
+      "logoURI": "https://i.ibb.co/C58Hkc4/rntx128t.png"
+    },
+    {
+      "name": "swap CEIK",
+      "address": "0x8FfDaB5A5749F88Ef3A8149fe022222c9B041b7a",
+      "symbol": "sCEIK",
+      "decimals": 18,
+      "chainId": 21004
+    },
+    {
+      "name": "CERU",
+      "address": "0xd6aA777083834A4E64B12770c4579B35baaA4075",
+      "symbol": "CERU",
+      "decimals": 18,
+      "chainId": 21004
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v1$ cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2
+dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v2$ node deploy_uniswap_v2.js
+Adding Alice, Bob and Charlie keys ...
+Web3 is connected.
+accounts: ["0x321076c847888870547072A9E9fFCcA64d44d41d","0x98DdD9c3d5a96ec33864677a9E669aE044510567","0x0eEA7CA12D4632FF1368df24Cb429dBEa17dD71D"]
+Deploying Uniswap V2 now, please wait ...
+Deploying WETH now, please wait ...
+0x3b5662ce42e60cddba3e51eb6ca5d646474870f4583095451d6e35e53c81b857
+Transaction hash: 0x3b5662ce42e60cddba3e51eb6ca5d646474870f4583095451d6e35e53c81b857
+Contract address: 0xa75f26fe729E594dB5283D19F35AB2e269ff8797
+0xa75f26fe729E594dB5283D19F35AB2e269ff8797
+Data written to file
+feeToSetter is currently set to: 0xc0a4272bb5df52134178Df25d77561CfB17ce407
+feeTo is currently set to: 0x0000000000000000000000000000000000000000
+Deploying ROUTER2 now, please wait ...
+0x4b18af01ad940afe2fe1887c92e56d22b9004c228acb8fe8b1ff2a859ff6614b
+Transaction hash: 0x4b18af01ad940afe2fe1887c92e56d22b9004c228acb8fe8b1ff2a859ff6614b
+Contract address: 0x1B60cD548971BA3c7F64ea8967fae346Ef7A0A42
+0x1B60cD548971BA3c7F64ea8967fae346Ef7A0A42
+Data written to file
+Name set to: Wrapped Ether
+Total Supply set to: 0
+Symbol set to: WETH
+Deploying Multicall now, please wait ...
+0xc139a447bd973b7865e13d17e6ce94ad26775fa7a8132918e5008d1c89e4d520
+Transaction hash: 0xc139a447bd973b7865e13d17e6ce94ad26775fa7a8132918e5008d1c89e4d520
+Contract address: 0x22C573E6e225ed77Bda153ec0e18843EF6c0016f
+0x22C573E6e225ed77Bda153ec0e18843EF6c0016f
+Data written to file
+Router2's factory set to: 0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f
+Router2's WETH set to: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+Deploying Migrator now, please wait ...
+0x79fdde3edc0dc419cc47809d40b958d4c2a418b56372361ea82f15de07f21726
+Transaction hash: 0x79fdde3edc0dc419cc47809d40b958d4c2a418b56372361ea82f15de07f21726
+Contract address: 0x2a53601ac32f9CC8713a454D3133e15d5Bc77bb7
+0x2a53601ac32f9CC8713a454D3133e15d5Bc77bb7
+Data written to file
+Deploying ENS registry now, please wait ...
+0x705403c42778ccf86cff26867536fec18d1977800ab087fb82fc76982036c695
+Transaction hash: 0x705403c42778ccf86cff26867536fec18d1977800ab087fb82fc76982036c695
+Contract address: 0x130555c303F243107830C2C66dfBEe25a0B36F7c
+0x130555c303F243107830C2C66dfBEe25a0B36F7c
+Data written to file
+Deploying Gas relay hub address contract now, please wait ...
+0x8a618fdc408feb75d0fddee5f99e1c3fedf215058da3658ab25f6393f8e7c5d5
+Transaction hash: 0x8a618fdc408feb75d0fddee5f99e1c3fedf215058da3658ab25f6393f8e7c5d5
+Contract address: 0x892E06883898003306ee7BECfd2620F1DcB4333C
+0x892E06883898003306ee7BECfd2620F1DcB4333C
+Data written to file
+Data written to file
+0x648308a2e2512028ab2271bf6631fc858322f35e50b62aeb543f101dc07d2acb
+Transaction hash: 0x648308a2e2512028ab2271bf6631fc858322f35e50b62aeb543f101dc07d2acb
+Contract address: 0xcbfa3C59CE10FA77E3659ba57F4dD899Cc12E5Fd
+0xcbfa3C59CE10FA77E3659ba57F4dD899Cc12E5Fd
+Data written to file
+dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v2$ 
