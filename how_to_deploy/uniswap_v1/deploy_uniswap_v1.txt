@@ -1,4 +1,5 @@
-dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v1$ node deploy_uniswap_v1.js
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v1
+node deploy_uniswap_v1.js
 Adding Alice, Bob and Charlie keys ...
 Web3 is connected.
 accounts: ["0x321076c847888870547072A9E9fFCcA64d44d41d","0x98DdD9c3d5a96ec33864677a9E669aE044510567","0x0eEA7CA12D4632FF1368df24Cb429dBEa17dD71D"]

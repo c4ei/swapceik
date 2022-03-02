@@ -7,13 +7,13 @@
 // change the "../installation_data.js" value in the "fs.readFile" section and hard code the full path the the installatin_data.js file in the same fashion as above i.e. /home/me ...
 // yarn
 // yarn example 
-//node /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2/test_multicall.js
+//node /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v2/test_multicall.js
 var mc = require("@makerdao/multicall")
 const fs = require('fs');
 
 function get_data() {
     return new Promise(function(resolve, reject) {
-        fs.readFile('/home/dev/www/uniswapV2/how_to_deploy/installation_data.json', (err, data) => {
+        fs.readFile('/home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json', (err, data) => {
             if (err) throw err;
             resolve(data);
         });

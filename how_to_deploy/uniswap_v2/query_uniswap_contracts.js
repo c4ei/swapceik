@@ -1,10 +1,10 @@
-//node /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2/query_uniswap_contracts.js
+//node /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v2/query_uniswap_contracts.js
 const fs = require('fs');
 const Web3 = require("web3");
 
 function get_data() {
     return new Promise(function(resolve, reject) {
-        fs.readFile('/home/dev/www/uniswapV2/how_to_deploy/installation_data.json', (err, data) => {
+        fs.readFile('/home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json', (err, data) => {
             if (err) throw err;
             resolve(data);
         });
@@ -20,7 +20,7 @@ function get_data() {
 // Dynamically fetch provider
     const URL = data_object.provider.rpc_endpoint;
     const web3 = new Web3(new Web3.providers.HttpProvider(URL));
-    // web3.eth.defaultCommon = {customChain: {name: 'c4ei', chainId: 21004, networkId: 21004}};
+    // web3.eth.defaultCommon = {customChain: {name: 'c4ei', chainId: 8217, networkId: 8217}};
     await web3.eth.net.isListening();
     console.log('Web3 is connected.');
 

@@ -55,7 +55,7 @@ Create 3 Ethereum compatible addresses using any method that you are comfortable
 
 Now paste the **private** and **public** keys of those addresses into the installation_data.json file as shown below.
 ```
-vi /home/dev/www/uniswapV2/how_to_deploy/installation_data.json
+vi /home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json
 ```
 Here is an example of the `private_key` and `public_key` sections of that file.
 ```
@@ -74,7 +74,7 @@ You will need to fund these accounts with network tokens. So depending on your n
 
 Now place the RPC URL to your Ethereum compatible network in that same `installation_data.json` file.
 ```
-vi /home/dev/www/uniswapV2/how_to_deploy/installation_data.json
+vi /home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json
 ```
 Here is an example of the `rpc_endpoint` section of that file.
 ```
@@ -90,7 +90,7 @@ Now run the Uniswap V1 smart contract installer.
 ```
 yarn add @truffle/hdwallet-provider
 ```
-cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v1
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v1
 ```
 ```
 node deploy_uniswap_v1.js
@@ -120,7 +120,7 @@ If you open the `../installation_data.json` file, you will see that the Uniswap 
 
 Now run the Uniswap V2 smart contract installation script.
 ```
-cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v2
 ```
 
 ### Important Warning
@@ -155,7 +155,7 @@ Congratulations, the smart contracts are all deployed. You will see that all of 
 
 Now change into the `uniswap_interface` directory.
 ```
-cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_interface
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_interface
 ```
 Now run the `modify_addresses.py` script 
 ```
@@ -397,18 +397,18 @@ error --> "chainId": 21004, --> "chainId": 1, --> error disappeare ??????
 
 
 
-cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/uniswapV2/how_to_deploy
-cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/ceik/swapceik/how_to_deploy
+cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
 
 /home/dev/www/uniswapV2/src/state/claim/hooks.ts
   fetch(`https://gentle-frost-9e74.uniswap.workers.dev/${chainId}/${formatted}`)
 
 
 
-/home/dev/www/uniswapV2/how_to_deploy/utils
+/home/dev/www/ceik/swapceik/how_to_deploy/utils
 python3 find_init_code_hash.py
 
-/home/dev/www/uniswapV2/how_to_deploy/@uniswap/default-token-list/build/uniswap-default.tokenlist.json
+/home/dev/www/ceik/swapceik/how_to_deploy/@uniswap/default-token-list/build/uniswap-default.tokenlist.json
       "name": "Dai Stablecoin",
       "address": "0xaD6D458402F60fD3Bd25163575031ACDce07538D" -->       
       "address": "0x31F42841c2db5173425b5223809CF3A38FEde360",

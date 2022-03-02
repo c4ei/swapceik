@@ -6,7 +6,7 @@
 import json
 from web3 import Web3
 
-f = open("/home/dev/www/uniswapV2/how_to_deploy/utils/Combined-Json.json", "r")
+f = open("/home/dev/www/ceik/swapceik/how_to_deploy/utils/Combined-Json.json", "r")
 raw_data = f.read()
 json_data = json.loads(raw_data)
 

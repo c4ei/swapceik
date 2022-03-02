@@ -15,7 +15,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 //   ,providerOrUrl:'https://rpc.c4ei.net'})
 function get_data(_message) {
     return new Promise(function(resolve, reject) {
-        fs.readFile('/home/dev/www/uniswapV2/how_to_deploy/installation_data.json', (err, data) => {
+        fs.readFile('/home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json', (err, data) => {
             if (err) throw err;
             resolve(data);
         });
@@ -24,7 +24,7 @@ function get_data(_message) {
 
 function write_data(_message) {
     return new Promise(function(resolve, reject) {
-        fs.writeFile('/home/dev/www/uniswapV2/how_to_deploy/installation_data.json', _message, (err) => {
+        fs.writeFile('/home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json', _message, (err) => {
             if (err) throw err;
             console.log('Data written to file');
             resolve();
@@ -49,7 +49,7 @@ var URL = "";
     const Web3 = require("web3");
     const provider = new HDWalletProvider(privateKeys, URL, 0, 3);
     const web3 = new Web3(provider);
-    web3.eth.defaultCommon = {customChain: {name: 'mainnet', chainId: 21004, networkId: 21004}};
+    web3.eth.defaultCommon = {customChain: {name: 'mainnet', chainId: 8217, networkId: 8217}};
     await web3.eth.net.isListening();
     console.log('Web3 is connected.');
     //console.log("Private keys: " + privateKeys);

@@ -1,4 +1,4 @@
-cd /home/dev/www/uniswapV2/how_to_deploy/V1/v1-contracts
+cd /home/dev/www/ceik/swapceik/how_to_deploy/V1/v1-contracts
 pip3 install virtualenv
 virtualenv -p python3 env
 source env/bin/activate
@@ -14,7 +14,7 @@ pip install -r requirements.txt
         Run tests
         pytest -v tests/
 
-cd /home/dev/www/uniswapV2/how_to_deploy/V1
+cd /home/dev/www/ceik/swapceik/how_to_deploy/V1
 git reset --hard 35038d20bd9946a35261c4c4fbcb27fe61e65f78
-cd /home/dev/www/uniswapV2/how_to_deploy/V1/v1-contracts
+cd /home/dev/www/ceik/swapceik/how_to_deploy/V1/v1-contracts
 pytest -v tests/

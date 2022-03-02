@@ -24,7 +24,7 @@
 			"linkReferences": {},
 			"autoDeployLib": true
 		},
-		"c4ei:21004": {
+		"c4ei:8217": {
 			"linkReferences": {},
 			"autoDeployLib": true
 		},

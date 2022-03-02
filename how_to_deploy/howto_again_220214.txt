@@ -1,24 +1,24 @@
 howto_again_220214
 
-0. /home/dev/www/uniswapV2/how_to_deploy/installation_data.json --> make blank
+0. /home/dev/www/ceik/swapceik/how_to_deploy/installation_data.json --> make blank
     https://github.com/ggbbest/how_to_deploy_uniswap/blob/master/installation_data.json
     fill pub/pri key
 1. 
-cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v1
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v1
 node deploy_uniswap_v1.js
 2. 
-cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v2
 node deploy_uniswap_v2.js
 query_uniswap_contracts.js
 3. 
-cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_interface
+cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_interface
 python3 modify_addresses.py
 XXX python3 change_chain_id.py
 
 '0xf164fC0Ec4E93095b804a4795bBe1e041497b92a', // v2 router 01 이 변경 되지 않는 듯 . . . --> 0x856B735047948F55BA589280CdbA96A22fC8245C
-cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/uniswapV2/how_to_deploy
+cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/ceik/swapceik/how_to_deploy
 
-cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
 
 
 RINKEBY
@@ -26,7 +26,7 @@ kovan
 
 
 22-02-20 factory change
-cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9-->
 0xf13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63
 
@@ -92,13 +92,13 @@ delete
 
 SearchModal
 Currency(18, 'ETH', 'Ether')  --> Currency(18, 'C4EI', 'C4EI Coin')
-/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.development.js
-/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.development.js.map
-/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.production.min.js.map
-/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.esm.js
-/home/dev/www/uniswapV2/how_to_deploy/@uniswap/sdk/dist/sdk.esm.js.map
+/home/dev/www/ceik/swapceik/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.development.js
+/home/dev/www/ceik/swapceik/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.development.js.map
+/home/dev/www/ceik/swapceik/how_to_deploy/@uniswap/sdk/dist/sdk.cjs.production.min.js.map
+/home/dev/www/ceik/swapceik/how_to_deploy/@uniswap/sdk/dist/sdk.esm.js
+/home/dev/www/ceik/swapceik/how_to_deploy/@uniswap/sdk/dist/sdk.esm.js.map
 
-cp -r /home/dev/www/uniswapV2/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
+cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
 
 /home/dev/www/uniswapV2/src/components/CurrencyLogo/index.tsx
 --> 5 line
@@ -114,7 +114,7 @@ import EthereumLogo from '../../assets/images/ethereum-logo.png'
 
 delete DAI , UNI
 /home/dev/www/uniswapV2/node_modules/@uniswap/default-token-list/build/uniswap-default.tokenlist.json
-cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/uniswapV2/how_to_deploy
+cp -r /home/dev/www/uniswapV2/node_modules/@uniswap /home/dev/www/ceik/swapceik/how_to_deploy
 
 /home/dev/www/uniswapV2/src/components/Header/index.tsx
 0 UNI --> not show

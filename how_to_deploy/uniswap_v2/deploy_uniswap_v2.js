@@ -41,7 +41,7 @@ var URL = "";
     const Web3 = require("web3");
     const provider = new HDWalletProvider(privateKeys, URL, 0, 3);
     const web3 = new Web3(provider);
-    web3.eth.defaultCommon = {customChain: {name: 'mainnet', chainId: 21004, networkId: 21004}};
+    web3.eth.defaultCommon = {customChain: {name: 'mainnet', chainId: 8217, networkId: 8217}};
     await web3.eth.net.isListening();
     console.log('Web3 is connected.');
     let accounts = await web3.eth.getAccounts();

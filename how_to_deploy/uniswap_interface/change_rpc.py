@@ -7,9 +7,8 @@ raw_data = f.read()
 json_data = json.loads(raw_data)
 
 # infura = "https\:\/\/mainnet\.infura\.io\/v3\/faa4639b090f46499f29d894da0551a0"
-infura = "https\:\/\/rpc\.c4ei\.net"
-new_rpc = "http\:\/\/rpc\.c4ei\.net"
-
+infura = "http\:\/\/public-node-api\.klaytnapi\.com\/v1\/cypress"
+new_rpc = "http\:\/\/public-node-api\.klaytnapi\.com\/v1\/cypress"
 sed_command_i_o = 's/' + infura + '/' + new_rpc + '/g'
 
 # # Update files

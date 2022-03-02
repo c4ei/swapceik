@@ -1,4 +1,4 @@
-dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v1$ cd /home/dev/www/uniswapV2/how_to_deploy/uniswap_v2
+dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v1$ cd /home/dev/www/ceik/swapceik/how_to_deploy/uniswap_v2
 dev@ubuntu:~/www/uniswapV2/how_to_deploy/uniswap_v2$ node deploy_uniswap_v2.js
 Adding Alice, Bob and Charlie keys ...
 Web3 is connected.

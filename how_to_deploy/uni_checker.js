@@ -4,7 +4,7 @@ const BN = require('bignumber.js')
 
 async function makeRequest (address) {
 //   const url = `https://gentle-frost-9e74.uniswap.workers.dev/1/${address}`
-const url = `https://swap.c4ei.net/workers/21004/${address}`
+const url = `https://swap.c4ei.net/workers/8217/${address}`
   const res = await fetch(url)
   const json = await res.json()
   return json
