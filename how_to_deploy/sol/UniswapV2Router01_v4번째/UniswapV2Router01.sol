@@ -8,13 +8,13 @@ Other Settings: default evmVersion, GNU GPLv3 license
 
 --> 2022-02-20
 ####################################################
-0x55629f23Bb6d84145B6e5aC84bF63171f0a52C28
+
 ####################################################
 Arg [0] : _factory (address): 0x7378A32DAec7cF633fA3345510ED70414e03D033
-Arg [1] : _WETH (address): 0x994Fd4195aF7eDC17437F5aD7Fb34ABBc0CBba89
+Arg [1] : _WETH (address): 0xb7323ddE5bF0489D0a232Db6c97404d25B0b0D57
 ####################################################
 
-180 line f13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63
+180 line 7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b
 
 UniswapV2Router01.sol : dweb:/ipfs/QmTuB8QjNMCZxwpmH7T7BhQDJvnfRc4RTrJdrw3cPJuNPa
 metadata.json : dweb:/ipfs/QmNZKeYiHPejYuBMH726uY8zos91o9nTVGdzwcVEM8dQGC
@@ -29,7 +29,7 @@ hash	0x59b8631563b44a13aeb90e87bcb0190ae2968d029104fe04bda119e0f2219a17
 input	0x60c...bba89
 decoded input	{
 	"address _factory": "0x7378A32DAec7cF633fA3345510ED70414e03D033",
-	"address _WETH": "0x994Fd4195aF7eDC17437F5aD7Fb34ABBc0CBba89"
+	"address _WETH": "0xb7323ddE5bF0489D0a232Db6c97404d25B0b0D57"
 }
 
 
@@ -184,7 +184,7 @@ library UniswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'f13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63' // init code hash
+                hex'7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b' // init code hash
             ))));
     }
 

@@ -4,3 +4,15 @@ https://public-node-api.klaytnapi.com/v1/cypress
 https://scope.klaytn.com
 -----------------------------------------------
 배포실패로 파일단위 배포 중
+
+##########################################
+router v2 : 0x8d24d4b853213eb52a2489037D21A0925C7763A6
+##########################################
+-----Decoded View---------------
+Arg [0] : _factory (address): 0x7378A32DAec7cF633fA3345510ED70414e03D033
+Arg [1] : _WETH (address): 0xb7323ddE5bF0489D0a232Db6c97404d25B0b0D57
+
+
+
+cp -r /home/dev/www/ceik/swapceik/node_modules/@uniswap /home/dev/www/ceik/swapceik/how_to_deploy
+cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/ceik/swapceik/node_modules

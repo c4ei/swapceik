@@ -386,11 +386,11 @@ error --> "chainId": 21004, --> "chainId": 1, --> error disappeare ??????
 ,
     {
       "name": "Wrapped Ether",
-      "address": "0x994Fd4195aF7eDC17437F5aD7Fb34ABBc0CBba89",
+      "address": "0xb7323ddE5bF0489D0a232Db6c97404d25B0b0D57",
       "symbol": "WETH",
       "decimals": 18,
       "chainId": 21004,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x994Fd4195aF7eDC17437F5aD7Fb34ABBc0CBba89/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb7323ddE5bF0489D0a232Db6c97404d25B0b0D57/logo.png"
     }
 
 2 : Uni (21004) 0xeBE5769Bfb761416Bb533c70d6d6013de21e46CE

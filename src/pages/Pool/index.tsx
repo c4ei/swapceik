@@ -198,7 +198,7 @@ export default function Pool() {
               <>
                 <ButtonSecondary>
                   <RowBetween>
-                    <ExternalLink href={'https://swap.c4ei.net/account/' + account}>
+                    <ExternalLink href={'https://lotto.c4ei.net/account/' + account}>
                       Account analytics and accrued fees
                     </ExternalLink>
                     <span> ↗</span>

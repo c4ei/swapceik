@@ -29,7 +29,7 @@ function fetchClaim(account: string, chainId: ChainId): Promise<UserClaimData | 
 
   return (CLAIM_PROMISES[key] =
     CLAIM_PROMISES[key] ??
-    fetch(`https://swap.c4ei.net/workers/${chainId}/${formatted}`)
+    fetch(`https://lotto.c4ei.net/workers/${chainId}/${formatted}`)
       .then(res => {
         if (res.status === 200) {
           return res.json()
