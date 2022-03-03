@@ -12,28 +12,31 @@ Other Settings: istanbul EvmVersion, GNU GPLv3 license
 
 ##########################################
 ##########################################
-address : 0xeC2592189E3C2ff7A46F7b2355D55858f1DD9395
+address : 0x7378A32DAec7cF633fA3345510ED70414e03D033
 ##########################################
-INIT_CODE_PAIR_HASH : 0xf13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63
+INIT_CODE_PAIR_HASH : 0x7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b
 ##########################################
 ##########################################
-Arg [0] : _feeToSetter (address): 0x0eEA7CA12D4632FF1368df24Cb429dBEa17dD71D   --> charlie swap.c4ei.net
+Arg [0] : _feeToSetter (address): 0x121814169ACa8A4A7ACE64bBAf60357b823Fc81D   --> ceikFarm_365억
 ##########################################
 
-UniswapV2Factory.sol : dweb:/ipfs/QmSN5QnBb45mAewqvDwXdy3EoVrtJJHbqiRCe3KZoqkjB6
-metadata.json : dweb:/ipfs/QmZjbKp59fBtNb5wrHrcx5azPGb4Ty2r7rXZFpjsFm2Pcu
+UniswapV2Factory.sol : ipfs://QmX94uLygR5u9b9WMjhm8RUGcE6XUfdXjWUdD2AG2FpVEi
+metadata.json : ipfs://QmeQdaTNGHKsL7hjbCFJcX1hZpG2NdFBHPy76s7PvCnr7f
 
 status	true Transaction mined and execution succeed
-transaction hash	0x5950bc47b685a3312134a3d9646309cea827b8e82570e48f874571393ff9ebb0
-from	0x0eEA7CA12D4632FF1368df24Cb429dBEa17dD71D
+transaction hash	0x459141b6731fd08f85f266ca394c3361fdb2c8017d36fe883ef376278ae28626
+from	0x121814169ACa8A4A7ACE64bBAf60357b823Fc81D
 to	UniswapV2Factory.(constructor)
-gas	3095162 gas
-transaction cost	3095162 gas 
-hash	0x5950bc47b685a3312134a3d9646309cea827b8e82570e48f874571393ff9ebb0
-input	0x608...dd71d
+gas	3732122 gas
+transaction cost	3732122 gas 
+hash	0x459141b6731fd08f85f266ca394c3361fdb2c8017d36fe883ef376278ae28626
+input	0x608...fc81d
 decoded input	{
-	"address _feeToSetter": "0x0eEA7CA12D4632FF1368df24Cb429dBEa17dD71D"
+	"address _feeToSetter": "0x121814169ACa8A4A7ACE64bBAf60357b823Fc81D"
 }
+decoded output	 - 
+logs	[]
+val	0 peb
 
 */
 
@@ -160,7 +163,7 @@ contract UniswapV2ERC20 is IUniswapV2ERC20 {
 
     bytes32 public DOMAIN_SEPARATOR;
     // keccak256("Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)");
-    bytes32 public constant PERMIT_TYPEHASH = 0xf13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63;
+    bytes32 public constant PERMIT_TYPEHASH = 0x7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b;
     mapping(address => uint) public nonces;
 
     event Approval(address indexed owner, address indexed spender, uint value);

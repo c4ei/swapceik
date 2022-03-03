@@ -28,7 +28,7 @@ kovan
 22-02-20 factory change
 cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/uniswapV2/node_modules
 0x6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9-->
-0xf13b305c9fb9ac22810e48d010d5863898a1a239f97ad1d119dbb2c6f87e5b63
+0x7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b
 
 /home/dev/www/uniswapV2/src/state/swap/hooks.ts
 v2 router 01 0x856B735047948F55BA589280CdbA96A22fC8245C --> 0x55629f23Bb6d84145B6e5aC84bF63171f0a52C28
@@ -42,7 +42,7 @@ UniswapV2Router02 :
 UniswapV2Factory : 
 	0x6cdF5B4cffd285A6Be471E6894aC1798284e1a6b 
 V1_factory Vyper....
-	0xeC2592189E3C2ff7A46F7b2355D55858f1DD9395
+	0x7378A32DAec7cF633fA3345510ED70414e03D033
 
 
 /node_modules/@uniswap/v2-core/build/UniswapV2Pair.json

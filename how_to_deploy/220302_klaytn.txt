@@ -3,3 +3,4 @@ https://public-node-api.klaytnapi.com/v1/cypress
 8217
 https://scope.klaytn.com
 -----------------------------------------------
+배포실패로 파일단위 배포 중

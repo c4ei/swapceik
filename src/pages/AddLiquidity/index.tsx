@@ -46,10 +46,10 @@ import UnsupportedCurrencyFooter from 'components/swap/UnsupportedCurrencyFooter
 // const COMPUTED_INIT_CODE_HASH = keccak256(['bytes'], [`0x${bytecode}`])
 // document.writeln("INIT_CODE_HASH:"+COMPUTED_INIT_CODE_HASH+"") 
 // document.writeln("UniswapV2Router02 : 0x22C573E6e225ed77Bda153ec0e18843EF6c0016f") 
-// document.writeln("UniswapV2Factory  : 0xeC2592189E3C2ff7A46F7b2355D55858f1DD9395") 
+// document.writeln("UniswapV2Factory  : 0x7378A32DAec7cF633fA3345510ED70414e03D033") 
 //     //42ffe6804795e727b4765646b01aaf2dc7e13e6a002788bab6eb66e253472d5b 
-// https://etherscan.io/address/0xeC2592189E3C2ff7A46F7b2355D55858f1DD9395#code
-// document.writeln("V1_factory Vyper....0xeC2592189E3C2ff7A46F7b2355D55858f1DD9395 ")
+// https://etherscan.io/address/0x7378A32DAec7cF633fA3345510ED70414e03D033#code
+// document.writeln("V1_factory Vyper....0x7378A32DAec7cF633fA3345510ED70414e03D033 ")
 ////////////////////////////////////////////////////////////////////////////
 export default function AddLiquidity({
   match: {
