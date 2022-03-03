@@ -16,3 +16,10 @@ Arg [1] : _WETH (address): 0xb7323ddE5bF0489D0a232Db6c97404d25B0b0D57
 
 cp -r /home/dev/www/ceik/swapceik/node_modules/@uniswap /home/dev/www/ceik/swapceik/how_to_deploy
 cp -r /home/dev/www/ceik/swapceik/how_to_deploy/@uniswap /home/dev/www/ceik/swapceik/node_modules
+
+Access to fetch at '
+https://api.cypress.ozys.net:8651/' from origin '
+https://lotto.c4ei.net' has been blocked by 
+CORS policy: Response to preflight request doesn't pass access control check
+: No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
