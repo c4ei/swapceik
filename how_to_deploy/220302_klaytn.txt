@@ -23,3 +23,36 @@ https://lotto.c4ei.net' has been blocked by
 CORS policy: Response to preflight request doesn't pass access control check
 : No 'Access-Control-Allow-Origin' header is present on the requested resource. 
 If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+
+------ ngix
+#proxy_hide_header Upgrade;
+proxy_hide_header X-Powered-By;
+add_header Content-Security-Policy "upgrade-insecure-requests";
+add_header X-Frame-Options "SAMEORIGIN";
+add_header X-XSS-Protection "1; mode=block" always;
+add_header X-Content-Type-Options "nosniff" always;
+add_header Cache-Control "no-transform" always;
+add_header Referrer-Policy no-referrer always;
+add_header X-Robots-Tag none;
+
+location /app {
+    try_files $uri @wss;
+}
+
+location @wss {
+proxy_pass https://$server:3005;
+proxy_set_header Host $http_host;
+proxy_read_timeout     60;
+proxy_connect_timeout  60;
+proxy_redirect         off;
+
+proxy_http_version 1.1;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection 'upgrade';
+proxy_set_header Host $host;
+proxy_cache_bypass $http_upgrade;
+}
+
+
+
+0x2a53601ac32f9CC8713a454D3133e15d5Bc77bb7 멀티콜 --> 0x0701b353Fdd1c78824FD3aE4F6357dF5426B45a0
