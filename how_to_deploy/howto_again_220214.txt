@@ -123,3 +123,7 @@ style={disp_off}
 /home/dev/www/uniswapV2/src/components/SearchModal/CommonBases.tsx
 Common bases --> not show
 same code : style={disp_off}
+
+
+6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9
+7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b
