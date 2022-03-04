@@ -3,7 +3,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0x22C573E6e225ed77Bda153ec0e18843EF6c0016f'
+export const ROUTER_ADDRESS = '0x8d24d4b853213eb52a2489037D21A0925C7763A6'
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 // Block time here is slightly higher (~1s) than average in order to avoid ongoing proposals past the displayed time
 export const AVERAGE_BLOCK_TIME_IN_SECS = 13
