@@ -188,6 +188,13 @@
       "decimals": 18,
       "chainId": 8217,
       "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd0A1E359811322d97991E03f863a0C30C2cF029C/logo.png"
+    },
+    {
+      "name": "C4ei 4 klay",
+      "address": "0x18814b01b5cc76f7043e10fd268cc4364df47da0",
+      "symbol": "CEIK",
+      "decimals": 8,
+      "chainId": 8217
     }
   ]
 }
