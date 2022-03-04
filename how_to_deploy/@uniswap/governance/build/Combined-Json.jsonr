@@ -38171,7 +38171,7 @@
                       "src": "2225:84:6",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_stringliteral_6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9",
+                        "typeIdentifier": "t_stringliteral_7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b",
                         "typeString": "literal_string \"Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)\""
                       },
                       "value": "Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)"
@@ -38180,7 +38180,7 @@
                   "expression": {
                     "argumentTypes": [
                       {
-                        "typeIdentifier": "t_stringliteral_6e71edae12b1b97f4d1f60370fef10105fa2faae0126114a169c64845d6126c9",
+                        "typeIdentifier": "t_stringliteral_7f0fdedd8618165d1936f049cb675639ce7380a96e65770a6caa1a308aedaf8b",
                         "typeString": "literal_string \"Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)\""
                       }
                     ],
