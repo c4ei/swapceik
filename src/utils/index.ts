@@ -33,7 +33,7 @@ export function getEtherscanLink(
 ): string {
   let _prefix = `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
   if(_prefix === "https://c4ei.etherscan.io"){
-    _prefix ='http://scope.klaytn.com/'
+    _prefix ='http://scope.klaytn.com'
   }
   const prefix = _prefix
 
